@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="main-layout">
       <ArtsSection />
-      <UsersSection />
+     <UsersSection />
       <AdviceSection />
     </div>
   )

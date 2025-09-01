@@ -14,8 +14,6 @@ function UsersSection() {
       .then (jsonData =>{
         setData(jsonData);
         setLoading(false);
-        console.log(data);
-        console.log(loading);
   
   
       })
@@ -41,7 +39,7 @@ function UsersSection() {
           <li style={{background: item.favouriteColour}}>
         <img
           src={item.profileImage}
-          alt="Ritthy Ryan"
+          alt={item.firstName + " " + item.lastName}
         />
 
         <h3>{item.firstName + " " + item.lastName}</h3>

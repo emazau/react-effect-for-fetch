@@ -62,7 +62,7 @@ function AdviceSection() {
     >Get More Advice</button>
         <button 
     onClick={data.slip.advice !== null ? setFav([...fav,data.slip.advice])  : console.log("not ok")  }
-    disabled={!data.slip || !data}
+    disabled={!data.slip || !data} 
     >Set to favorites </button>
 
   </section>
